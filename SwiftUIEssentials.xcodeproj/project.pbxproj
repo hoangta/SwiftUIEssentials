@@ -17,11 +17,13 @@
 		0638236C2C0DAFC6007DA4D5 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0638236B2C0DAFC6007DA4D5 /* State.swift */; };
 		0638236E2C0DC069007DA4D5 /* State+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0638236D2C0DC069007DA4D5 /* State+CoreData.swift */; };
 		063823702C0DC7A2007DA4D5 /* Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0638236F2C0DC7A2007DA4D5 /* Modifier.swift */; };
-		063823732C0DD199007DA4D5 /* Environment+SyntacticSugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063823722C0DD199007DA4D5 /* Environment+SyntacticSugar.swift */; };
+		063823732C0DD199007DA4D5 /* Environment+SyntacticSugar2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063823722C0DD199007DA4D5 /* Environment+SyntacticSugar2.swift */; };
 		063823762C0DD1C7007DA4D5 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 063823752C0DD1C7007DA4D5 /* FirebaseAnalytics */; };
 		063823782C0DDC94007DA4D5 /* AnchorPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063823772C0DDC94007DA4D5 /* AnchorPreferenceKey.swift */; };
 		0638237A2C0E0FBB007DA4D5 /* PreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063823792C0E0FBB007DA4D5 /* PreferenceKey.swift */; };
 		0638237C2C0E1C88007DA4D5 /* ViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0638237B2C0E1C88007DA4D5 /* ViewBuilder.swift */; };
+		064076742C0F17E8005AFB19 /* Environment+SyntacticSugar1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064076732C0F17E8005AFB19 /* Environment+SyntacticSugar1.swift */; };
+		064076762C0F2078005AFB19 /* EnvironmentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064076752C0F2078005AFB19 /* EnvironmentObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,10 +38,12 @@
 		0638236B2C0DAFC6007DA4D5 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 		0638236D2C0DC069007DA4D5 /* State+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "State+CoreData.swift"; sourceTree = "<group>"; };
 		0638236F2C0DC7A2007DA4D5 /* Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier.swift; sourceTree = "<group>"; };
-		063823722C0DD199007DA4D5 /* Environment+SyntacticSugar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Environment+SyntacticSugar.swift"; sourceTree = "<group>"; };
+		063823722C0DD199007DA4D5 /* Environment+SyntacticSugar2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Environment+SyntacticSugar2.swift"; sourceTree = "<group>"; };
 		063823772C0DDC94007DA4D5 /* AnchorPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorPreferenceKey.swift; sourceTree = "<group>"; };
 		063823792C0E0FBB007DA4D5 /* PreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKey.swift; sourceTree = "<group>"; };
 		0638237B2C0E1C88007DA4D5 /* ViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilder.swift; sourceTree = "<group>"; };
+		064076732C0F17E8005AFB19 /* Environment+SyntacticSugar1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Environment+SyntacticSugar1.swift"; sourceTree = "<group>"; };
+		064076752C0F2078005AFB19 /* EnvironmentObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +87,9 @@
 				0638236F2C0DC7A2007DA4D5 /* Modifier.swift */,
 				0638237B2C0E1C88007DA4D5 /* ViewBuilder.swift */,
 				063823692C0DAF5D007DA4D5 /* Environment.swift */,
-				063823722C0DD199007DA4D5 /* Environment+SyntacticSugar.swift */,
+				064076732C0F17E8005AFB19 /* Environment+SyntacticSugar1.swift */,
+				063823722C0DD199007DA4D5 /* Environment+SyntacticSugar2.swift */,
+				064076752C0F2078005AFB19 /* EnvironmentObject.swift */,
 				063823792C0E0FBB007DA4D5 /* PreferenceKey.swift */,
 				063823772C0DDC94007DA4D5 /* AnchorPreferenceKey.swift */,
 				0638235B2C0D77B7007DA4D5 /* Assets.xcassets */,
@@ -183,14 +189,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				064076742C0F17E8005AFB19 /* Environment+SyntacticSugar1.swift in Sources */,
 				063823702C0DC7A2007DA4D5 /* Modifier.swift in Sources */,
 				0638237A2C0E0FBB007DA4D5 /* PreferenceKey.swift in Sources */,
 				0638235A2C0D77B6007DA4D5 /* Text.swift in Sources */,
 				063823682C0D986B007DA4D5 /* Container.swift in Sources */,
 				0638236E2C0DC069007DA4D5 /* State+CoreData.swift in Sources */,
+				064076762C0F2078005AFB19 /* EnvironmentObject.swift in Sources */,
 				063823782C0DDC94007DA4D5 /* AnchorPreferenceKey.swift in Sources */,
 				063823662C0D84C5007DA4D5 /* Button.swift in Sources */,
-				063823732C0DD199007DA4D5 /* Environment+SyntacticSugar.swift in Sources */,
+				063823732C0DD199007DA4D5 /* Environment+SyntacticSugar2.swift in Sources */,
 				0638237C2C0E1C88007DA4D5 /* ViewBuilder.swift in Sources */,
 				063823582C0D77B6007DA4D5 /* SwiftUIEssentialsApp.swift in Sources */,
 				0638236A2C0DAF5D007DA4D5 /* Environment.swift in Sources */,

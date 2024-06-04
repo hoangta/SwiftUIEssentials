@@ -195,6 +195,49 @@ struct Container5: View {
         .buttonStyle(.container)
 }
 
+// MARK: - the overlay over overlay, the background under background
+struct Container5p1: View {
+    var body: some View {
+        HStack {
+            Text("1 month")
+            Spacer()
+            Text("$99.99")
+        }
+        .padding()
+        .bold()
+        .foregroundStyle(Color.white)
+        .frame(height: 58)
+        .background {
+            Color.black
+                .overlay(
+                    RoundedRectangle(cornerRadius: 12)
+                        .stroke(Color.white, lineWidth: 3)
+                )
+        }
+        .overlay(alignment: .top) {
+            Text("Limited Offer")
+                .foregroundStyle(Color.black)
+                .frame(height: 21)
+                .padding(.horizontal, 10)
+                .background { Color.white }
+                .clipShape(
+                    .rect(
+                        bottomLeadingRadius: 12,
+                        bottomTrailingRadius: 12
+                    )
+                )
+        }
+        .clipShape(.rect(cornerRadius: 12))
+    }
+}
+
+#Preview("Container5p1") {
+    Container5p1()
+        .foregroundStyle(.primary)
+        .frame(maxHeight: .infinity)
+        .background(.green)
+}
+
 // MARK: - the lazy ones
 struct Container6: View {
     let data = 1..<100
@@ -317,3 +360,4 @@ struct Container9: View {
     Container9()
         .foregroundStyle(.primary)
 }
+
