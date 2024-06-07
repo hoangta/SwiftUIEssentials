@@ -24,6 +24,8 @@
 		0638237C2C0E1C88007DA4D5 /* ViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0638237B2C0E1C88007DA4D5 /* ViewBuilder.swift */; };
 		064076742C0F17E8005AFB19 /* Environment+SyntacticSugar1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064076732C0F17E8005AFB19 /* Environment+SyntacticSugar1.swift */; };
 		064076762C0F2078005AFB19 /* EnvironmentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064076752C0F2078005AFB19 /* EnvironmentObject.swift */; };
+		065AACBB2C1163380092022E /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065AACBA2C1163380092022E /* NavigationView.swift */; };
+		065AACBD2C116DB10092022E /* SafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065AACBC2C116DB10092022E /* SafeArea.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		0638237B2C0E1C88007DA4D5 /* ViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilder.swift; sourceTree = "<group>"; };
 		064076732C0F17E8005AFB19 /* Environment+SyntacticSugar1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Environment+SyntacticSugar1.swift"; sourceTree = "<group>"; };
 		064076752C0F2078005AFB19 /* EnvironmentObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObject.swift; sourceTree = "<group>"; };
+		065AACBA2C1163380092022E /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		065AACBC2C116DB10092022E /* SafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeArea.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 				064076732C0F17E8005AFB19 /* Environment+SyntacticSugar1.swift */,
 				063823722C0DD199007DA4D5 /* Environment+SyntacticSugar2.swift */,
 				064076752C0F2078005AFB19 /* EnvironmentObject.swift */,
+				065AACBA2C1163380092022E /* NavigationView.swift */,
+				065AACBC2C116DB10092022E /* SafeArea.swift */,
 				063823792C0E0FBB007DA4D5 /* PreferenceKey.swift */,
 				063823772C0DDC94007DA4D5 /* AnchorPreferenceKey.swift */,
 				0638235B2C0D77B7007DA4D5 /* Assets.xcassets */,
@@ -190,12 +196,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				064076742C0F17E8005AFB19 /* Environment+SyntacticSugar1.swift in Sources */,
+				065AACBD2C116DB10092022E /* SafeArea.swift in Sources */,
 				063823702C0DC7A2007DA4D5 /* Modifier.swift in Sources */,
 				0638237A2C0E0FBB007DA4D5 /* PreferenceKey.swift in Sources */,
 				0638235A2C0D77B6007DA4D5 /* Text.swift in Sources */,
 				063823682C0D986B007DA4D5 /* Container.swift in Sources */,
 				0638236E2C0DC069007DA4D5 /* State+CoreData.swift in Sources */,
 				064076762C0F2078005AFB19 /* EnvironmentObject.swift in Sources */,
+				065AACBB2C1163380092022E /* NavigationView.swift in Sources */,
 				063823782C0DDC94007DA4D5 /* AnchorPreferenceKey.swift in Sources */,
 				063823662C0D84C5007DA4D5 /* Button.swift in Sources */,
 				063823732C0DD199007DA4D5 /* Environment+SyntacticSugar2.swift in Sources */,

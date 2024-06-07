@@ -11,7 +11,8 @@ import SwiftUI
 struct SwiftUIEssentialsApp: App {
     var body: some Scene {
         WindowGroup {
-            Text("No thanks.")
+//            Text("No thanks.")
+            SafeAreaView4()
         }
     }
 }
